@@ -6,8 +6,8 @@ interface StudentProps {
   previousOccupation?: string;
 }
 const student: StudentProps = {
-  firstName: ' Carolyne ',
-  lastName: ' Golias ',
+  firstName: 'Carolyne',
+  lastName: 'Golias',
   age: 99,
 };
 const firstName: string = student.firstName;
@@ -49,8 +49,8 @@ console.log('The value of the vehicle object', vehicle);
 console.log('The type of vehicle', typeof vehicle);
 
 interface Pet {
-  name: string;
-  kind: string;
+  name?: string;
+  kind?: string;
 }
 const pet: Pet = {
   name: 'foxy',

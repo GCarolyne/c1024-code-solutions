@@ -1,7 +1,7 @@
 'use strict';
 const student = {
-  firstName: ' Carolyne ',
-  lastName: ' Golias ',
+  firstName: 'Carolyne',
+  lastName: 'Golias',
   age: 99,
 };
 const firstName = student.firstName;
