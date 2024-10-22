@@ -17,8 +17,8 @@ const grade: number = (quizzes + midterm + final) / 3;
 console.log('the value of grade:', grade);
 console.log('the typeof grade:', typeof grade);
 
-const firstName: string = 'Carolyne';
-const lastName: string = 'Golias';
+const firstName: string = 'Carolyne ';
+const lastName: string = 'Golias ';
 const fullName: string = firstName + lastName;
 console.log('the value of fullName', fullName);
 console.log('typeof fullName', typeof fullName);
@@ -33,6 +33,7 @@ const isSparta: boolean = headCount === 300;
 console.log('the value of isSparta', isSparta);
 console.log('the typeof isSparta', typeof isSparta);
 
-const motto: string = fullName + '' + ' is the GOAT';
+const motto: string = fullName 
+const motto: string += 'is the GOAT';  
 console.log('the value of motto', motto);
 console.log('the typeof motto', typeof motto);
