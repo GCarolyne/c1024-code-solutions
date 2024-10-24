@@ -1,4 +1,5 @@
 /* exported getAreaOfCircle */
 function getAreaOfCircle(radius: number): number {
-  return radius / Math.PI;
+  const product: number = radius * radius;
+  return product * Math.PI;
 }

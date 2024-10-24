@@ -1,5 +1,6 @@
-"use strict";
+'use strict';
 /* exported getAreaOfCircle */
 function getAreaOfCircle(radius) {
-    return radius / Math.PI;
+  const product = radius * radius;
+  return product * Math.PI;
 }
