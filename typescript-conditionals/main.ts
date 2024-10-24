@@ -17,7 +17,7 @@ function isUnderFive(number: number): boolean {
 }
 
 function isEven(number: number): boolean {
-  if (number % 2) {
+  if (number % 2 === 0) {
     return true;
   } else {
     return false;
@@ -63,7 +63,7 @@ function isOldEnoughToDrinkAndDrive(person: Person): boolean {
 function categorizeAcidity(pH: number): string {
   if (pH === 7) {
     return 'neutral';
-  } else if (pH <= 7) {
+  } else if (pH < 7) {
     return 'acid';
   } else if (pH > 7 && pH <= 14) {
     return 'base';
