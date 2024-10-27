@@ -1,11 +1,14 @@
 'use strict';
 /* exported filterOutStrings */
 function filterOutStrings(values) {
-  const filtered = [];
-  for (let i = 0; i < values.length; i++) {
-    if (values[i] !== 'string') {
-      filtered.push(values[i]);
+  let newArray = [];
+  for (const value of values) {
+    if (values === 'string') {
+      newArray.push(values);
+      return true;
+    } else {
+      return false;
     }
   }
-  return filtered;
+  return newArray;
 }

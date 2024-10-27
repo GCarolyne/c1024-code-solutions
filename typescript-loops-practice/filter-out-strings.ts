@@ -1,10 +1,9 @@
 /* exported filterOutStrings */
-function filterOutStrings(values: []): any[] {
-  const filtered: any = [];
-  for (let i = 0; i < values.length; i++) {
-    if (values[i] !== 'string') {
-      filtered.push(values[i]);
-    }
-  }
-  return filtered;
-}
+
+// function filterOutStrings(values:string):unknown{
+// let newArray:any=[]
+// for (const value of values){
+
+//  if(values === 'string'){
+// newArray.push(values)
+// return true
