@@ -1,9 +1,10 @@
 /* exported filterOutStrings */
-
-// function filterOutStrings(values:string):unknown{
-// let newArray:any=[]
-// for (const value of values){
-
-//  if(values === 'string'){
-// newArray.push(values)
-// return true
+function filterOutStrings(values: unknown[]): unknown[] {
+  const newArray = [];
+  for (let i = 0; i < values.length; i++) {
+    if (typeof values !== 'string') {
+      newArray.push(values[i]);
+    }
+  }
+  return newArray;
+}
