@@ -1,8 +1,11 @@
 /* exported includesSeven */
-// function includesSeven(array:[]):boolean {
-// const newArray:number=[]
-// const includesSeven: number = 7;
-// for (let i = array.length; i < includesSeven; i--){
-// if(array && includesSeven){
-// array.filter(includesSeven)
-// return true
+// function includesSeven(array: ): number {
+// for (let i = 0; i < array.length; i++) {
+// console.log(array);
+// if (array[i] != 7) {
+// return true;
+// } else (array[i] !== 7){
+// return false;
+// }
+// }
+// }
