@@ -1,7 +1,8 @@
+'use strict';
 /* exported initial */
-function initial(array: unknown[]): any[] {
+function initial(array) {
   console.log(array);
-  const newArray: any[] = [];
+  const newArray = [];
   for (let i = 0; i < array.length - 1; i++) {
     newArray.push(array[i]);
   }
