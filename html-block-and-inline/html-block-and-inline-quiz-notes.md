@@ -9,8 +9,9 @@ Answer the following questions in the provided markdown file before turning in t
 - How do inline elements affect the document flow?
   Specifies the text to be seperate from the paragraph.
 - What are the default width and height of a block-level element?
-
+  Width always stretches to the full width of its container. Height dynamically adjusts based on the height of its content.
 - What are the default width and height of an inline element?
+  The height and width of an inline element is exactly the height and width of the content.
 
 ## Notes
 
