@@ -10,7 +10,7 @@
       <input type="text" id="email" name="email" required />
 
       <div><label for="why">Why is coding cool:</label></div>
-      <select id="Why" name="Why is coding cool">
+      <select id="why" name="Why is coding cool">
         <option value="">Select an option</option>
         <option value="Because it's interesting">
           Because it's interesting
@@ -22,28 +22,23 @@
       </select>
 
       <h2>Favorite language (choose one)</h2>
-      <label for="favoriteLanguage">HTML</label>
+      <label for="favorite1">HTML</label>
+      <input type="radio" id="favorite1" name="language" value="HTML" checked />
+
+      <label for="favorite2">CSS</label>
+      <input type="radio" id="favorite2" name="language" value="CSS" checked />
+
+      <label for="favoritelanguage">Javascript</label>
       <input
         type="radio"
         id="favoritelanguage"
         name="language"
-        value="HTML"
+        value="Javascript"
         checked />
-
-      <label for="favoritelanguage">CSS</label>
-      <input
-        type="radio"
-        id="favoriteLanguage"
-        name="language"
-        value="CSS"
-        checked />
-
-      <label for="favoritelanguage">Javascript</label>
-      <input type="radio" name="language" value="Javascript" checked />
 
       <p>Would you like to sign up for more information?</p>
       <input type="checkbox" id="signMeUp" name="Sign me up!" value="email" />
-      <label for="SignUp">Sign me up!</label>
+      <label for="signMeUp">Sign me up!</label>
 
       <div>
         <label for="comment">Comment:</label>
