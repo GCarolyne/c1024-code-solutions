@@ -1,0 +1,44 @@
+* {
+  box-sizing: border-box;
+}
+
+h1 {
+  font-style: bold;
+}
+
+.container {
+  max-width: 800px;
+  margin: 0 auto;
+}
+
+.row {
+  display: flex;
+}
+
+.column-full {
+  width: 100%;
+}
+
+.column-third {
+  width: calc(100% / 3);
+}
+
+.column-fourth {
+  width: calc(100% / 4);
+}
+
+img {
+  width: 100%;
+}
+
+.column-five {
+  width: calc(200% / 3);
+}
+
+.column-fifth {
+  width: calc(200% / 3);
+}
+
+h4 {
+  font-size: x-large;
+}
