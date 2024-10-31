@@ -7,11 +7,11 @@ Answer the following questions in the provided markdown file before turning in t
 - What is the default `flex-direction` of a `flex` container?
   row
 - What is the default `flex-wrap` of a `flex` container?
-  allows flex items to wrap onto multiple lines.
+  nowrap
 - What axis do the `justify-content` properties work on?
-  used to align the flex container on multiple axis.
+  main primary axis which is by default horizontal
 - What axis do the `align-items` properties work on?
-  horizontal
+  cross axis which is vertical by default.
 
 ## Notes
 
