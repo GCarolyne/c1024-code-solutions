@@ -6,6 +6,6 @@ html {
   font-size: 3rem;
   text-align: center;
   position: fixed;
-  top: 0;
-  left: 35%;
+  right: 0;
+  left: 0;
 }
