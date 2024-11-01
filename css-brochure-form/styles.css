@@ -1,0 +1,59 @@
+h1 {
+  text-transform: uppercase;
+  font-family: 'Brandon Grotesque', sans-serif;
+  font-style: normal;
+  font-weight: 500;
+  color: rgb(237, 106, 102);
+  text-align: center;
+}
+
+label {
+  display: block;
+  text-transform: uppercase;
+  font-weight: bold;
+  font-family: 'Brandon Grotesque', sans-serif, bold;
+  font-size: 9px;
+  border-radius: 25px;
+  margin-top: 10px;
+  margin-left: 5px;
+  margin-bottom: 2px;
+}
+
+.container {
+  width: 500px;
+  margin: 0 auto;
+}
+
+input {
+  width: 100%;
+  padding: 5px;
+  font-size: 9px;
+}
+
+select {
+  width: 100%;
+  padding: 5px;
+  margin-bottom: 5px;
+  font-size: 10px;
+}
+
+option {
+  padding: 10px;
+}
+
+.submit {
+  color: rgb(255, 255, 255);
+  background-color: rgb(237, 106, 102);
+  border: none;
+  padding-bottom: 10px;
+  padding-top: 10px;
+  padding-left: 15px;
+  padding-right: 15px;
+  margin-left: 235px;
+  text-transform: uppercase;
+  border-radius: 25px;
+}
+
+.submit-container {
+  text-align: right;
+}
