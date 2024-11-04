@@ -41,6 +41,12 @@ h2 {
   font-family: Avenir, sans-serif;
   font-style: normal;
   font-weight: 500;
+  position: absolute;
+  top: 20%;
+  bottom: 10px;
+  left: 100px;
+  right: 0;
+  width: 100%;
 }
 
 p {
@@ -48,6 +54,9 @@ p {
   font-family: Avenir, sans-serif;
   font-style: normal;
   font-weight: 500;
+  position: absolute;
+  top: 50%;
+  bottom: 0;
 }
 
 .womenpic {
@@ -55,7 +64,7 @@ p {
   justify-content: center;
   padding-top: 100px;
   width: 800px;
-  position: static;
+  position: relative;
 }
 
 .row {
