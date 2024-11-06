@@ -1,0 +1,50 @@
+.container {
+  max-width: 800px;
+  margin: 0 auto;
+}
+
+.whiteLightButton {
+  box-shadow: rgb(250, 234, 132);
+  display: flex;
+  justify-content: center;
+  margin-top: 300px;
+  width: 100%;
+  height: 200%;
+  border-radius: 100%;
+  border: none;
+  background-color: rgb(250, 234, 132);
+}
+
+.blackDrop {
+  box-shadow: #000;
+  display: flex;
+  justify-content: center;
+  margin-top: 300px;
+  width: 100%;
+  height: 200%;
+  border-radius: 100%;
+  border: none;
+  background-color: #706464ee;
+}
+
+.row {
+  display: flex;
+  width: 100%;
+}
+
+.column-image {
+  display: flex;
+  width: 100%;
+}
+
+body {
+  background-color: rgb(255, 244, 157);
+}
+
+.dark {
+  background-color: black;
+}
+
+.on {
+  background-color: rgb(255, 244, 157);
+}
