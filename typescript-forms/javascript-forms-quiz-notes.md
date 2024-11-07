@@ -11,15 +11,15 @@ Answer the following questions in the provided markdown file before turning in t
 - What event is fired as a user changes the value of a form control?
   InputEvent
 - What event is fired when a user clicks the `"submit"` button within a `<form>`?
-  focus()
+  submit
 - What does the `event.preventDefault()` method do?
-  defaults the results of the data entered.
+  Prevents the default action of our event.prevent from page to reload
 - What does submitting a form without `event.preventDefault()` do?
-  stores and repeats the data input
+  It would submit a form in the browswer.$contactForm.reset!
 - What property of a form element object contains all of the form's controls.
-
+  The element property. Gives us all the element collection of the form contorl.
 - What property of a form control object gets and sets its value?
-
+  .value getter and setter
 - What is one risk of writing a lot of code without checking to see if it works so far?
 
 - What is an advantage of having your console open when writing a JavaScript program?
