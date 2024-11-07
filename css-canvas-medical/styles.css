@@ -19,6 +19,7 @@ body {
 
 .column-full {
   display: flex;
+  justify-content: flex-start;
   width: 100%;
 }
 
@@ -44,34 +45,33 @@ img {
 
 h1 {
   position: absolute;
-  bottom: 70%;
-  left: 25%;
+  bottom: 80%;
+  left: 30%;
   color: rgb(255, 255, 255);
   font-style: normal;
   font-weight: normal;
 }
 
 p {
+  display: flex;
+  align-items: center;
   position: absolute;
-  top: 40%;
+  top: 20%;
   right: 40%;
   left: 30%;
-  bottom: 20%;
+  bottom: 50%;
   color: hsl(0deg, 0%, 100%);
   font-family: Arial, Helvetica, sans-serif;
   font-style: normal;
   font-weight: normal;
 }
 
-.row2 {
-  flex-basis: 100%;
-}
-
-.column-two-thirds {
-  flex-basis: 100%;
-}
-
 .getStarted {
+  position: absolute;
+  bottom: 40%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
   border-radius: none;
   background-color: darkblue;
   color: white;
