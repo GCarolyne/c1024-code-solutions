@@ -3,7 +3,7 @@ interface BookObj {
   title: string;
   author: string;
 }
-const books: BookObj = [
+const books: BookObj[] = [
   {
     isbn: '777888',
     title: 'The Signalman',
