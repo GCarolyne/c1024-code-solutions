@@ -11,6 +11,8 @@ function handleFocus(event: Event): void {
   console.log('eventTarget.name', eventTarget.name);
 }
 $input.addEventListener('focus', handleFocus);
+$input.addEventListener('blur', handleFocus);
+$input.addEventListener('input', handleFocus);
 
 function handleBlur(event: Event): void {
   console.log('blur event fired');
@@ -18,6 +20,8 @@ function handleBlur(event: Event): void {
   console.log('eventTarget.name', eventTarget.name);
 }
 $input1.addEventListener('blur', handleBlur);
+$input1.addEventListener('focus', handleBlur);
+$input1.addEventListener('input', handleBlur);
 
 function handleInput(event: Event): void {
   const eventTarget = event.target as HTMLInputElement | HTMLTextAreaElement;
@@ -26,3 +30,5 @@ function handleInput(event: Event): void {
 }
 
 $textAr.addEventListener('input', handleInput);
+$textAr.addEventListener('focus', handleInput);
+$textAr.addEventListener('blur', handleInput);
