@@ -7,12 +7,6 @@ interface Todo {
 
 let todos: Todo[] = readTodos();
 
-function writeTodos(): void {
-  const todosJSON = JSON.stringify(todos);
-  localStorage.setItem('todos-storage', todosJSON);
-}
-writeTodos();
-
 function readTodos(): Todo[] {
   const todosJSON = localStorage.getItem('todos-storage');
   if (todosJSON) {
