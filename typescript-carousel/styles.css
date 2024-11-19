@@ -1,0 +1,46 @@
+.view-hidden {
+  display: none;
+}
+
+li {
+  list-style: none;
+}
+
+.container {
+  display: flex;
+  justify-content: center;
+  width: 100%;
+  margin: auto 0;
+}
+
+button {
+  display: flex;
+  all: unset;
+}
+
+.row {
+  display: flex;
+  justify-content: center;
+}
+
+.fa-chevron-right {
+  margin-top: 200px;
+  font-size: 100px;
+}
+
+.fa-chevron-left {
+  margin-top: 200px;
+  font-size: 100px;
+}
+
+.column-full {
+  width: 100%;
+  display: flex;
+  flex-direction: row;
+  align-items: baseline;
+}
+
+i {
+  display: flex;
+  justify-content: space-between;
+}

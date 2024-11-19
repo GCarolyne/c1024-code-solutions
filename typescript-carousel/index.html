@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>TypeScript Carousel</title>
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css" />
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body>
+    <div class="container">
+      <div class="row">
+        <div class="column-third">
+          <button id="left">
+            <i class="fa-solid fa-chevron-left"></i>
+          </button>
+        </div>
+      </div>
+      <div class="row">
+        <div class="column-full">
+          <ul>
+            <li>
+              <img id="view" src="images/025.png" />
+            </li>
+            <li data-view="view-hidden">
+              <img id="view1" src="images/039.png" />
+            </li>
+            <li data-view="view-hidden">
+              <img id="view2" src="images/007.png" />
+            </li>
+            <li data-view="view-hidden">
+              <img id="view3" src="images/004.png" />
+            </li>
+            <li data-view="view-hidden">
+              <img id="view4" src="images/001.png" />
+            </li>
+          </ul>
+        </div>
+      </div>
+      <div class="row">
+        <div class="column-one">
+          <button id="right">
+            <i class="fa-solid fa-chevron-right"></i>
+          </button>
+        </div>
+      </div>
+    </div>
+    <div class="row">
+      <i class="fa-solid fa-circle"></i>
+      <i class="fa-regular fa-circle"></i>
+      <i class="fa-regular fa-circle"></i>
+      <i class="fa-regular fa-circle"></i>
+      <i class="fa-regular fa-circle"></i>
+    </div>
+    <script src="main.js"></script>
+  </body>
+</html>
