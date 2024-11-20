@@ -12,4 +12,9 @@ const names = [
   'Donna',
 ];
 console.log(names);
-// n%2===0
+
+const evenNum = numbers.filter((n) => n % 2 === 0);
+console.log('Filter even', evenNum);
+
+const nameD = names.filter(() => !names.includes('D') && !names.includes('d'));
+console.log('D', nameD);
