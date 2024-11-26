@@ -27,7 +27,7 @@
 async function fetchArtObjects(): Promise<void> {
   try {
     const response = await fetch(
-      'https://api.artic.edu/api/v1/artworks?limit=2'
+      'https://www.artic.edu/iiif/2/57701/full/843,/0/default.jpg'
     );
     if (!response.ok) {
       throw new Error(`Error: ${response.status} ${response.statusText}`);
@@ -55,7 +55,24 @@ async function fetchPoetObjects(): Promise<void> {
 
 fetchPoetObjects();
 
+async function fetchVideoObjects(): Promise<void> {
+  try {
+    const response = await fetch('https://poetrydb.org/title/Sonnet');
+    if (!response.ok) {
+      throw new Error(`Error: ${response.status} ${response.statusText}`);
+    }
+    const data = await response.json();
+    console.log(data);
+  } catch (error) {
+    console.error('An error occurred:', error);
+  }
+}
+
+fetchVideoObjects();
+
 // // const imageUrl = data.config.iiif_url;
 // // const imageId = data.config.image_id;
 // const default = data.config.
 // // console.log(imageUrl,imageId)
+
+// https://api.artic.edu/api/v1/artworks?limit=3
