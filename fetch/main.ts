@@ -27,7 +27,7 @@
 async function fetchArtObjects(): Promise<void> {
   try {
     const response = await fetch(
-      'https://www.artic.edu/iiif/2/57701/full/843,/0/default.jpg'
+      'https://api.artic.edu/api/v1/artworks?limit=100'
     );
     if (!response.ok) {
       throw new Error(`Error: ${response.status} ${response.statusText}`);
@@ -40,39 +40,39 @@ async function fetchArtObjects(): Promise<void> {
 }
 fetchArtObjects();
 
-async function fetchPoetObjects(): Promise<void> {
-  try {
-    const response = await fetch('https://poetrydb.org/title/Sonnet');
-    if (!response.ok) {
-      throw new Error(`Error: ${response.status} ${response.statusText}`);
-    }
-    const data = await response.json();
-    console.log(data);
-  } catch (error) {
-    console.error('An error occurred:', error);
-  }
-}
+// async function fetchPoetObjects(): Promise<void> {
+//   try {
+//     const response = await fetch('https://poetrydb.org/title/Sonnet');
+//     if (!response.ok) {
+//       throw new Error(`Error: ${response.status} ${response.statusText}`);
+//     }
+//     const data = await response.json();
+//     console.log(data);
+//   } catch (error) {
+//     console.error('An error occurred:', error);
+//   }
+// }
 
-fetchPoetObjects();
+// fetchPoetObjects();
 
-async function fetchVideoObjects(): Promise<void> {
-  try {
-    const response = await fetch('https://poetrydb.org/title/Sonnet');
-    if (!response.ok) {
-      throw new Error(`Error: ${response.status} ${response.statusText}`);
-    }
-    const data = await response.json();
-    console.log(data);
-  } catch (error) {
-    console.error('An error occurred:', error);
-  }
-}
+// async function fetchVideoObjects(): Promise<void> {
+//   try {
+//     const response = await fetch('https://poetrydb.org/title/Sonnet');
+//     if (!response.ok) {
+//       throw new Error(`Error: ${response.status} ${response.statusText}`);
+//     }
+//     const data = await response.json();
+//     console.log(data);
+//   } catch (error) {
+//     console.error('An error occurred:', error);
+//   }
+// }
 
-fetchVideoObjects();
+// fetchVideoObjects();
 
-// // const imageUrl = data.config.iiif_url;
-// // const imageId = data.config.image_id;
-// const default = data.config.
-// // console.log(imageUrl,imageId)
+// // // const imageUrl = data.config.iiif_url;
+// // // const imageId = data.config.image_id;
+// // const default = data.config.
+// // // console.log(imageUrl,imageId)
 
-// https://api.artic.edu/api/v1/artworks?limit=3
+// // https://api.artic.edu/api/v1/artworks?limit=3
